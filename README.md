@@ -5,6 +5,8 @@
 Run: `python h100_skew_demo.py` (CPU, about 3 minutes, seed 20261116, needs numpy / scipy / matplotlib).
 Outputs: `outputs/skew_main_figure.png`, `outputs/grid_results.csv`, `outputs/sensitivity_results.csv`, `outputs/summary.json`, `outputs/run_log.txt`.
 
+> **Data credit.** The H100 SXM GPU rental price index data in `data/ornn_raw/` comes from [Ornn](https://index.ornn.com) (free public API, `api.ornnai.com`, documented at [index.ornn.com/docs](https://index.ornn.com/docs)), fetched 2026-11-17 07:13 UTC. All credit for that data belongs to Ornn; it is included here only to make the analysis reproducible. This project is not affiliated with or endorsed by Ornn.
+
 ## Headline
 
 Yes, but only in a narrow band, and only if upward scarcity spikes are frequent.
