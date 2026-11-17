@@ -1,0 +1,90 @@
+[  9.6s] pricer vs MC grid (vol pts): {
+ "fin": {
+  "n": 90,
+  "median_abs_err": 0.10162996620304808,
+  "max_abs_err": 0.1388761572948198,
+  "worst": {
+   "hl": "1d",
+   "m": 0.4,
+   "theory": 0.685762427848053,
+   "mc": 0.8246385851428728,
+   "mc_se": 0.05649158498904854,
+   "err": -0.1388761572948198
+  }
+ },
+ "avg": {
+  "n": 90,
+  "median_abs_err": 0.05470917220228629,
+  "max_abs_err": 0.1246465338704969,
+  "worst": {
+   "hl": "15d",
+   "m": 0.4,
+   "theory": -7.723012360864077,
+   "mc": -7.5983658269935805,
+   "mc_se": 0.036470517190520246,
+   "err": -0.1246465338704969
+  }
+ }
+}
+[ 16.0s] hl       1d: avg: RR25 inf (MC inf) RR10 inf rule 0.984 skew0 inf  fin: RR25 0.458 (MC inf) RR10 0.444 rule 0.353 skew0 0.353
+[ 22.3s] hl     1.5d: avg: RR25 inf (MC nan) RR10 inf rule 0.725 skew0 inf  fin: RR25 0.389 (MC nan) RR10 0.392 rule 0.341 skew0 0.341
+[ 28.0s] hl       2d: avg: RR25 inf (MC inf) RR10 inf rule 0.573 skew0 inf  fin: RR25 0.348 (MC 0.353) RR10 0.359 rule 0.329 skew0 0.329
+[ 33.7s] hl       3d: avg: RR25 0.470 (MC inf) RR10 0.527 rule 0.404 skew0 0.581  fin: RR25 0.300 (MC 0.304) RR10 0.320 rule 0.312 skew0 0.312
+[ 38.8s] hl       4d: avg: RR25 0.352 (MC nan) RR10 0.389 rule 0.315 skew0 0.422  fin: RR25 0.273 (MC nan) RR10 0.297 rule 0.301 skew0 0.301
+[ 43.5s] hl       5d: avg: RR25 0.287 (MC 0.296) RR10 0.314 rule 0.262 skew0 0.337  fin: RR25 0.257 (MC 0.259) RR10 0.283 rule 0.293 skew0 0.293
+[ 47.5s] hl       7d: avg: RR25 0.217 (MC 0.223) RR10 0.235 rule 0.201 skew0 0.250  fin: RR25 0.237 (MC 0.238) RR10 0.267 rule 0.284 skew0 0.284
+[ 51.5s] hl      10d: avg: RR25 0.170 (MC 0.173) RR10 0.182 rule 0.158 skew0 0.192  fin: RR25 0.223 (MC 0.223) RR10 0.256 rule 0.279 skew0 0.278
+[ 55.3s] hl      15d: avg: RR25 0.136 (MC 0.139) RR10 0.145 rule 0.126 skew0 0.152  fin: RR25 0.211 (MC 0.211) RR10 0.247 rule 0.276 skew0 0.276
+[ 58.9s] hl      20d: avg: RR25 0.121 (MC nan) RR10 0.128 rule 0.112 skew0 0.134  fin: RR25 0.203 (MC nan) RR10 0.242 rule 0.274 skew0 0.274
+[ 62.2s] hl      30d: avg: RR25 0.106 (MC 0.108) RR10 0.112 rule 0.098 skew0 0.117  fin: RR25 0.192 (MC 0.192) RR10 0.232 rule 0.270 skew0 0.270
+[ 65.6s] hl      60d: avg: RR25 0.093 (MC nan) RR10 0.098 rule 0.085 skew0 0.101  fin: RR25 0.175 (MC nan) RR10 0.215 rule 0.257 skew0 0.257
+[ 68.9s] hl persists: avg: RR25 0.080 (MC 0.082) RR10 0.084 rule 0.073 skew0 0.087  fin: RR25 0.152 (MC 0.153) RR10 0.188 rule 0.228 skew0 0.228
+[ 75.7s] skewness zero, MC vs rule: [{"hl": "10d", "mc_skew_zero_fin": 0.27851946400794897, "mc_skew_zero_avg": 0.19370928795214942, "rule_fin": 0.2785158346622055, "rule_avg": 0.15780732457609478}, {"hl": "persists", "mc_skew_zero_fin": 0.22678463069590865, "mc_skew_zero_avg": 0.087939086080984, "rule_fin": 0.22774236443245618, "rule_avg": 0.07327127246470905}]
+[122.9s] RR25 threshold / rule: {'avg_min': 0.9201208272277992, 'avg_max': 1.2648993351267617, 'avg_median': 1.0888961392763332, 'fin_min': 0.5821814750362443, 'fin_max': 0.7606480217127566, 'fin_median': 0.673683761821998}
+   band: {'spikes': 'baseline (12/yr, 2d)', 'avg_boundary': 0.08, 'fin_boundary': 0.152, 'mid': 0.116, 'rr25_fin_at_mid': 1.665, 'rr25_avg_at_mid': -1.37, 'rr25_fin_no_launch': 3.739, 'rr25_avg_no_launch': 1.057}
+   band: {'spikes': 'Lee et al. data-consistent (0.5/yr, 7d)', 'avg_boundary': 0.051, 'fin_boundary': 0.074, 'mid': 0.063, 'rr25_fin_at_mid': 0.156, 'rr25_avg_at_mid': -0.229, 'rr25_fin_no_launch': 0.419, 'rr25_avg_no_launch': 0.331}
+   band: {'spikes': '12/yr, 7d', 'avg_boundary': 0.184, 'fin_boundary': 0.217, 'mid': 0.201, 'rr25_fin_at_mid': 1.293, 'rr25_avg_at_mid': -1.074, 'rr25_fin_no_launch': 9.948, 'rr25_avg_no_launch': 6.715}
+   band: {'spikes': '0.5/yr, 2d', 'avg_boundary': 0.027, 'fin_boundary': 0.053, 'mid': 0.04, 'rr25_fin_at_mid': 0.084, 'rr25_avg_at_mid': -0.105, 'rr25_fin_no_launch': 0.149, 'rr25_avg_no_launch': 0.05}
+[151.9s] critical launch probability for the final print: 0.685
+   baseline spikes  p=0.10  avg RR25 m*=0.125 (rule 0.093)  final RR25 m*=0.186 (rule 0.215)
+   baseline spikes  p=0.20  avg RR25 m*=0.095 (rule 0.079)  final RR25 m*=0.144 (rule 0.189)
+   baseline spikes  p=0.30  avg RR25 m*=0.085 (rule 0.074)  final RR25 m*=0.135 (rule 0.187)
+   baseline spikes  p=0.40  avg RR25 m*=0.081 (rule 0.073)  final RR25 m*=0.137 (rule 0.199)
+   baseline spikes  p=0.50  avg RR25 m*=0.080 (rule 0.073)  final RR25 m*=0.152 (rule 0.228)
+   baseline spikes  p=0.60  avg RR25 m*=0.082 (rule 0.076)  final RR25 m*=0.198 (rule 0.302)
+   baseline spikes  p=0.65  avg RR25 m*=0.083 (rule 0.077)  final RR25 m*=0.282 (rule 0.416)
+   baseline spikes  p=0.70  avg RR25 m*=0.085 (rule 0.079)  final RR25 m*=0.590 (rule inf)
+   baseline spikes  p=0.75  avg RR25 m*=0.088 (rule 0.081)  final RR25 m*=inf (rule inf)
+   baseline spikes  p=0.80  avg RR25 m*=0.091 (rule 0.084)  final RR25 m*=inf (rule inf)
+   baseline spikes  p=0.90  avg RR25 m*=0.097 (rule 0.088)  final RR25 m*=inf (rule inf)
+   baseline spikes  p=1.00  avg RR25 m*=0.101 (rule 0.091)  final RR25 m*=0.282 (rule 0.331)
+   no spikes        p=0.10  avg RR25 m*=0.000 (rule 0.000)  final RR25 m*=0.000 (rule 0.000)
+   no spikes        p=0.20  avg RR25 m*=0.000 (rule 0.000)  final RR25 m*=0.001 (rule 0.000)
+   no spikes        p=0.30  avg RR25 m*=0.000 (rule 0.000)  final RR25 m*=0.000 (rule 0.000)
+   no spikes        p=0.40  avg RR25 m*=0.001 (rule 0.000)  final RR25 m*=0.000 (rule 0.000)
+   no spikes        p=0.50  avg RR25 m*=0.001 (rule 0.000)  final RR25 m*=0.000 (rule 0.000)
+   no spikes        p=0.60  avg RR25 m*=0.001 (rule 0.000)  final RR25 m*=0.000 (rule 0.000)
+   no spikes        p=0.65  avg RR25 m*=0.000 (rule 0.000)  final RR25 m*=0.000 (rule 0.000)
+   no spikes        p=0.70  avg RR25 m*=0.000 (rule 0.000)  final RR25 m*=inf (rule inf)
+   no spikes        p=0.75  avg RR25 m*=0.000 (rule 0.000)  final RR25 m*=inf (rule inf)
+   no spikes        p=0.80  avg RR25 m*=0.000 (rule 0.000)  final RR25 m*=inf (rule inf)
+   no spikes        p=0.90  avg RR25 m*=0.000 (rule 0.000)  final RR25 m*=inf (rule inf)
+   no spikes        p=1.00  avg RR25 m*=0.000 (rule 0.000)  final RR25 m*=0.001 (rule 0.000)
+   no spikes MC: {'p': 0.8, 'm': 0.1, 'mc_fin': 0.352, 'mc_fin_se': 0.034, 'mc_avg': -1.026, 'mc_avg_se': 0.021, 'mc_flip': True, 'th_fin': 0.356, 'th_avg': -1.096}
+   no spikes MC: {'p': 0.8, 'm': 0.2, 'mc_fin': 2.561, 'mc_fin_se': 0.042, 'mc_avg': -4.07, 'mc_avg_se': 0.025, 'mc_flip': True, 'th_fin': 2.544, 'th_avg': -4.162}
+   no spikes MC: {'p': 0.9, 'm': 0.1, 'mc_fin': 0.275, 'mc_fin_se': 0.039, 'mc_avg': -0.849, 'mc_avg_se': 0.024, 'mc_flip': True, 'th_fin': 0.273, 'th_avg': -0.916}
+   no spikes MC: {'p': 0.6, 'm': 0.1, 'mc_fin': -0.343, 'mc_fin_se': 0.042, 'mc_avg': -1.443, 'mc_avg_se': 0.022, 'mc_flip': False, 'th_fin': -0.361, 'th_avg': -1.546}
+   decay: {'case': 'updated', 'day': 0, 'mc_fin': 2.25, 'th_fin': 2.26, 'mc_avg': -0.62, 'th_avg': -0.69}
+   decay: {'case': 'updated', 'day': 5, 'mc_fin': 2.26, 'th_fin': 2.31, 'mc_avg': -0.34, 'th_avg': -0.47}
+   decay: {'case': 'updated', 'day': 10, 'mc_fin': 2.5, 'th_fin': 2.37, 'mc_avg': 0.01, 'th_avg': -0.14}
+   decay: {'case': 'updated', 'day': 15, 'mc_fin': 2.48, 'th_fin': 2.56, 'mc_avg': 0.46, 'th_avg': 0.31}
+   decay: {'case': 'updated', 'day': 20, 'mc_fin': 3.4, 'th_fin': 3.36, 'mc_avg': 0.99, 'th_avg': 0.84}
+   decay: {'case': 'updated', 'day': 25, 'mc_fin': 6.96, 'th_fin': 6.83, 'mc_avg': 1.18, 'th_avg': 1.05}
+   decay: {'case': 'held', 'day': 0, 'mc_fin': 2.25, 'th_fin': 2.26, 'mc_avg': -0.62, 'th_avg': -0.69}
+   decay: {'case': 'held', 'day': 5, 'mc_fin': 2.48, 'th_fin': 2.51, 'mc_avg': -0.33, 'th_avg': -0.46}
+   decay: {'case': 'held', 'day': 10, 'mc_fin': 2.94, 'th_fin': 2.82, 'mc_avg': -0.02, 'th_avg': -0.19}
+   decay: {'case': 'held', 'day': 15, 'mc_fin': 3.22, 'th_fin': 3.26, 'mc_avg': 0.3, 'th_avg': 0.14}
+   decay: {'case': 'held', 'day': 20, 'mc_fin': 3.97, 'th_fin': 3.96, 'mc_avg': 0.6, 'th_avg': 0.44}
+   decay: {'case': 'held', 'day': 25, 'mc_fin': 5.44, 'th_fin': 5.27, 'mc_avg': 0.6, 'th_avg': 0.46}
+   decay power law: {'note': 'rule m*(t)/m*(0) against (N/n)^(2/3) with the launch probability held', 'ratio': [np.float64(1.1116184386659214), np.float64(1.2588076946654085), np.float64(1.4612864987656558), np.float64(1.7510200543982668)], 'power_law': [1.129243234657234, 1.3103706971044482, 1.5874010519681994, 2.080083823051904]}
+done in 175.0s

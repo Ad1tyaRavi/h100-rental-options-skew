@@ -1,0 +1,16 @@
+illustrative history ($/GPU-hour), days 1..25:
+  3.17 3.00 2.98 2.96 3.00 3.14 2.99 2.84 2.98 3.04 3.00 3.13 3.10 2.99 3.06 2.95 3.02 2.92 3.02 2.94 3.13 2.92 3.00 2.85 2.84
+no launch yet, updated     day  0  P(launch left)=0.500  fwd 2.922/2.984  ATM  38.1/ 20.5  RR25 final  +2.25+/-0.08  avg  -0.62+/-0.02  RRk  +2.01/ -0.63  RR/ATM +0.059/-0.030  flip=True flags=[]
+no launch yet, P held      day  0  P(launch left)=0.500  fwd 2.922/2.984  ATM  38.1/ 20.5  RR25 final  +2.25+/-0.08  avg  -0.62+/-0.02  RRk  +2.01/ -0.63  RR/ATM +0.059/-0.030  flip=True flags=[]
+no launch yet, updated     day  5  P(launch left)=0.455  fwd 2.851/2.927  ATM  40.1/ 18.0  RR25 final  +2.26+/-0.06  avg  -0.34+/-0.02  RRk  +1.98/ -0.36  RR/ATM +0.056/-0.019  flip=True flags=[]
+no launch yet, P held      day  5  P(launch left)=0.500  fwd 2.838/2.921  ATM  40.3/ 18.2  RR25 final  +2.48+/-0.06  avg  -0.33+/-0.02  RRk  +2.21/ -0.35  RR/ATM +0.062/-0.018  flip=True flags=[]
+no launch yet, updated     day 10  P(launch left)=0.400  fwd 2.846/2.935  ATM  42.8/ 15.5  RR25 final  +2.50+/-0.10  avg  +0.01+/-0.03  RRk  +2.13/ -0.03  RR/ATM +0.058/+0.001  flip=False flags=[]
+no launch yet, P held      day 10  P(launch left)=0.500  fwd 2.817/2.925  ATM  43.5/ 15.9  RR25 final  +2.94+/-0.10  avg  -0.02+/-0.03  RRk  +2.62/ -0.05  RR/ATM +0.068/-0.001  flip=False flags=[]
+no launch yet, updated     day 15  P(launch left)=0.333  fwd 2.930/2.999  ATM  46.8/ 13.1  RR25 final  +2.48+/-0.09  avg  +0.46+/-0.02  RRk  +2.00/ +0.39  RR/ATM +0.053/+0.035  flip=False flags=[]
+no launch yet, P held      day 15  P(launch left)=0.500  fwd 2.882/2.986  ATM  48.5/ 13.7  RR25 final  +3.22+/-0.09  avg  +0.30+/-0.02  RRk  +2.85/ +0.25  RR/ATM +0.066/+0.022  flip=False flags=[]
+no launch yet, updated     day 20  P(launch left)=0.250  fwd 2.968/3.002  ATM  52.7/ 10.4  RR25 final  +3.40+/-0.10  avg  +0.99+/-0.03  RRk  +2.66/ +0.85  RR/ATM +0.065/+0.095  flip=False flags=[]
+no launch yet, P held      day 20  P(launch left)=0.500  fwd 2.896/2.989  ATM  56.8/ 11.3  RR25 final  +3.97+/-0.09  avg  +0.60+/-0.02  RRk  +3.52/ +0.52  RR/ATM +0.070/+0.053  flip=False flags=[]
+no launch yet, updated     day 25  P(launch left)=0.143  fwd 2.932/2.986  ATM  65.7/  7.1  RR25 final  +6.96+/-0.18  avg  +1.18+/-0.02  RRk  +5.45/ +1.00  RR/ATM +0.106/+0.166  flip=False flags=[]
+no launch yet, P held      day 25  P(launch left)=0.500  fwd 2.832/2.976  ATM  76.7/  8.2  RR25 final  +5.44+/-0.17  avg  +0.60+/-0.02  RRk  +4.79/ +0.52  RR/ATM +0.071/+0.073  flip=False flags=[]
+launch observed day 10     day 10  P(launch left)=0.000  fwd 2.676/2.777  ATM  36.2/ 12.4  RR25 final  +5.22+/-0.09  avg  +1.67+/-0.02  RRk  +4.63/ +1.58  RR/ATM +0.144/+0.134  flip=False flags=[]
+saved figure and json in C:\Users\adira\Documents\tbn2\outputs
